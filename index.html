@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="mainBody">
+        <div class="screen"><input id="display" readonly></div>
+        <div class="numbers">
+            <div class="row1">
+            <button id="id-btn" onclick="appendDisplay('7')">7</button>
+            <button id="id-btn" onclick="appendDisplay('8')">8</button>
+            <button id="id-btn" onclick="appendDisplay('9')">9</button>
+            <button id="id-btn" onclick="appendDisplay('*')">*</button>
+            </div>
+            <div class="row2">
+            <button id="id-btn" onclick="appendDisplay('4')">4</button>
+            <button id="id-btn" onclick="appendDisplay('5')">5</button>
+            <button id="id-btn" onclick="appendDisplay('6')">6</button>
+            <button id="id-btn" onclick="appendDisplay('-')">-</button>
+            </div>
+            <div class="row3">
+            <button id="id-btn" onclick="appendDisplay('1')">1</button>
+            <button id="id-btn" onclick="appendDisplay('2')">2</button>
+            <button id="id-btn" onclick="appendDisplay('3')">3</button>
+            <button id="id-btn" onclick="appendDisplay('+')">+</button>
+        </div>
+        <button id="id-btn" onclick="appendDisplay('.')">.</button>
+            <button id="id-btn" onclick="appendDisplay('/')">/</button>
+            <button id="id-btn" onclick="clearDisplay()">C</button>
+            <button id="id-btn" onclick="calculate()">=</button>
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
